@@ -35,7 +35,7 @@ public class MainApp {
 		System.out.format(" va %d so le", ketQua2);
 	
 		//Sắp xếp các phần tửmảng theo thứtựtăng dần, giảm dần. In mảng ra màn hình.
-		//
+		//Tăng dần
 	        for (int i = 0 ; i < arr.length - 1; i++) {
 	            for (int j = i + 1; j < arr.length; j++) {
 	                if (arr[i] > arr[j]) {
@@ -49,7 +49,7 @@ public class MainApp {
 	        	System.out.print(arr[j] + " ");
 	        }
 	        System.out.println();
-	        //
+	        //Giảm dần
 	        int tg = arr[0];
 	        for (int i = 0; i < arr.length - 1; i++) {
 				for (int j = i + 1; j < arr.length; j++) {
