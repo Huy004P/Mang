@@ -12,7 +12,7 @@ import java.util.Random;
 	demSoNguyenTo(a);
 	}
 		private static void demSoNguyenTo(int[] a) {
-			//TODO Auto-generated method stubTODO Auto-generated method stub
+			//TODO Auto-generated method stub
 			int dem = 0;
 			for (int i = 0 ; i<a.length; i++) {
 				if(isPrimary(a[i]))
